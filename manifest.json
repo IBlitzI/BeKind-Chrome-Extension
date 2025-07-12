@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "BeKind",
+  "version": "1.0.0",
+  "description": "Mesaj ve e-posta metinlerinizi AI ile daha nazik ve profesyonel hale getirin",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "BeKind - Metin Düzenleyici"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*"
+  ],
+  "icons": {
+    "16": "BeKindLogo.png",
+    "32": "BeKindLogo.png",
+    "48": "BeKindLogo.png",
+    "128": "BeKindLogo.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src https://generativelanguage.googleapis.com;"
+  }
+}
