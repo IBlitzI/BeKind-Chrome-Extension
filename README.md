@@ -18,7 +18,7 @@
 1. **Repository'yi klonlayın:**
    ```bash
    git clone https://github.com/IBlitzI/BeKind-Chrome-Extension.git
-   cd BeKind-chrome-extension
+   cd BeKind-Chrome-Extension
    ```
 
 2. **Bağımlılıkları yükleyin:**
